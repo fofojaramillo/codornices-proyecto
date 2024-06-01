@@ -46,7 +46,7 @@ st.image('./images/kmeans.png', width=400,caption='Kmeans')
 rd_2='''Al momento de comparar las etiquetas asignadas para cada dato, se obtiene que estás coinciden con el estado aproximadamente un 95% de las veces, habiendo en la categoría 0 124 muestras exclusivamente de Nuevo México, mientras que en la categoría 1 hay 85 registros de Arizona y 11 de Nuevo México. Luego, se creó un árbol de decisión para poder predecir la categoría asignada por el algoritmo de Kmeans.
     '''
 st.markdown(f'<div style="text-align: justify">{rd_2}</div>',unsafe_allow_html=True)
-st.image('./images/desitionTree.png', width=500,caption='Arbol de decisión')
+st.image('./images/desitiontree.png', width=500,caption='Arbol de decisión')
 rd_3='''
 Observemos que en los primeros nodos del diagrama anterior observamos variables climatológicas. Ante esto, se piensa que los clusters son generados por la diferencia de esas variables. Por otro lado, para el segundo subconjunto de datos se obtuvo el siguiente mapeo de reducción de dimensionalidad:
 '''
