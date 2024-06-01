@@ -1,0 +1,104 @@
+---
+title: "Regresión de Dirichlet en dieta de codorniz"
+output: html_notebook
+---
+
+En este archivo se aplicará la regresión de Dirichlet en los datos generados en la libreta Preparación_Reg_Dir.
+
+```{r}
+library (DirichletReg)
+df <- read.csv("data/dir_reg.csv")
+df
+```
+
+
+```{r}
+df$estado <- NULL
+df$Y<- DR_data (df[,9:12])  # prepare the Y's0
+reg1 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df)
+
+```
+
+Resumen de regresión para todos los datos.
+
+```{r}
+summary(reg1)
+```
+Regresión para datos de Arizona
+```{r}
+df_AZ <- read.csv("data/AZdir_reg.csv")
+df_AZ
+
+df_AZ$Y<- DR_data (df_AZ[,10:13])  # prepare the Y's0
+reg2 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_AZ)
+```
+```{r}
+summary(reg2)
+```
+
+
+
+Regresión para datos de Nuevo México
+```{r}
+df_NM <- read.csv("data/NMdir_reg.csv")
+df_NM
+
+df_NM$Y<- DR_data (df_NM[,10:13])  # prepare the Y's0
+reg3 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_NM)
+```
+```{r}
+summary(reg3)
+```
+
+
+Regresión para datos de Arizona (Antes de la 1)
+```{r}
+
+df_AZ_M <- read.csv("data/AZMañana_reg.csv")
+df_AZ_M
+
+df_AZ_M$Y<- DR_data (df_AZ_M[,10:13])  # prepare the Y's0
+reg4 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_AZ_M)
+
+summary(reg4)
+
+```
+Regresión para datos de Arizona (Después de la 1)
+```{r}
+
+df_AZ_T <- read.csv("data/AZTarde_reg.csv")
+df_AZ_T
+
+df_AZ_T$Y<- DR_data (df_AZ_T[,10:13])  # prepare the Y's0
+reg5 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_AZ_T)
+
+```
+```{r}
+summary(reg5)
+```
+
+
+Regresión para datos de Nuevo México (Antes de la 1)
+```{r}
+
+df_NM_A <- read.csv("data/NMMañana_reg.csv")
+df_NM_A
+
+df_NM_A$Y<- DR_data (df_NM_A[,10:13])  # prepare the Y's0
+reg6 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_NM_A)
+
+summary(reg6)
+
+```
+Regresión para datos de Nuevo México (Después de la 1)
+```{r}
+
+df_NM_T <- read.csv("data/NMTarde_reg.csv")
+df_NM_T
+
+df_NM_T$Y<- DR_data (df_NM_T[,10:13])  # prepare the Y's0
+reg7 <- DirichReg(Y ~ dist.camino + ppanual17 + tmedia17 , df_NM_T)
+
+summary(reg7)
+
+```
