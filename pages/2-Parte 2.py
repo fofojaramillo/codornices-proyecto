@@ -79,7 +79,7 @@ en la cual también podemos apreciar diferencias entre ambos estados. Así, se p
 Utilizando 100 remuestreos en la prueba, se obtuvieron los siguientes resultados:
 '''
 st.markdown(f'<div style="text-align: justify">{CE3}</div>',unsafe_allow_html=True)
-st.image('./images/Permutacion.png', width=500,caption='Pruebas de permutación')
+st.image('./images/permutacion.png', width=500,caption='Pruebas de permutación')
 CE4='''
 Debido a que los tres p-valores fueron menores a , se tiene evidencia para rechazar la hipótesis nula, y aceptar la hipótesis alternativa en cada caso. Finalmente, se calculó la media de los índices de diversidad, y se consiguió lo siguiente:
 '''
