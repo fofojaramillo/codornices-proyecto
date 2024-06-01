@@ -1,4 +1,4 @@
-,id,edad,sexo,estado,Oxalis,Quercus,Cyp.bulb,Phaseolus,Insectos,Cyp.rizo,Commelina.dianthifolia,Euphorbia bilobata,time,dist camino,ppanual17,tmedia17,altitud,lat,lon,hcrop,hland,gap
+,id,edad,sexo,estado,Oxalis,Quercus,Cyp.bulb,Phaseolus,Insectos,Cyp.rizo,Commelina.dianthifolia,Euphorbia bilobata,time,dist_camino,ppanual17,tmedia17,altitud,lat,lon,hcrop,hland,gap
 0,2014-104,J,Female,NM,9.7584,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14:20,251.86,462.0,7.054166541,2518.0,34.037969,-108.963777,0.0,0.798599543,Rocky Mountain Ponderosa Pine Woodland
 1,2014-105,J,Male,NM,3.9632,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14:20,251.86,462.0,7.054166541,2518.0,34.037969,-108.963777,0.0,0.798599543,Rocky Mountain Ponderosa Pine Woodland
 2,2016-133,A,Female,AZ,3.8238,0.0,0.0,0.6148,0.0514,0.0,0.0025,0.1085,17:00,574.06,515.0,15.95416654,1527.0,31.375725,-110.530491,0.785803177,1.245915723,Madrean Encinal
