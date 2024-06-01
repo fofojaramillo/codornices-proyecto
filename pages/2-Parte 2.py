@@ -73,7 +73,7 @@ Podemos observar que ambos estados se pueden diferenciar bien, siendo los datos 
 En cuanto a la altitud, se obtuvo la siguiente gráfica:
 '''
 st.markdown(f'<div style="text-align: justify">{CE2}</div>',unsafe_allow_html=True)
-st.image('./images/Altitud-pp.png', width=500,caption='Altitud y precipitación')
+st.image('./images/Altitud-PP.png', width=500,caption='Altitud y precipitación')
 CE3='''
 en la cual también podemos apreciar diferencias entre ambos estados. Así, se puede pensar que ambos estados se pueden distinguir bien basándonos en estas tres variables climatológicas. Para tener más evidencia, se realizaron pruebas de permutación. En nuestras pruebas, y tomando el estadístico de la media muestral, nuestra hipótesis nula fue que la media de estas tres variables entre estados eran iguales con un nivel de significancia de = 0.05, y la hipótesis alternativa fué que la media era menor o mayor, dependiendo del signo de la diferencia de medias de la variable. 
 Utilizando 100 remuestreos en la prueba, se obtuvieron los siguientes resultados:
