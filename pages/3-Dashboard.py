@@ -11,7 +11,7 @@ import matplotlib.dates as mdates
 st.title('Explorando los datos de la Codorniz Moctezuma')
 
 # Lectura de datos
-df = pd.read_csv('./data/processed/dataset_preprocessed.csv')
+df = pd.read_csv('.\data\processed\dataset_preprocessed.csv')
 
 
 #----------------------------------------------------------------------------------------------------------------------
