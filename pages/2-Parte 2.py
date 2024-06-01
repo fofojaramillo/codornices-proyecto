@@ -112,7 +112,7 @@ st.image('./images/subconjunto-total.png', width=500,caption='Subconjunto de dat
 st.markdown('<div style="text-align: center"><b>Datos de Arizona</b></div>',unsafe_allow_html=True)
 st.image('./images/subconjunto-arizona.png', width=500,caption='Subconjunto de datos de Arizona')
 st.markdown('<div style="text-align: center"><b>Datos de Arizona después de las 13:00</b></div>',unsafe_allow_html=True)
-st.image('./images/subconjunto-AZ-13.png', width=500,caption='Subconjunto de datos de Arizona después de las 13:00h')
+st.image('./images/subconjunto-az-13.png', width=500,caption='Subconjunto de datos de Arizona después de las 13:00h')
 D2='''El grupo funcional donde se obtuvieron p-valores más significativos (tomando un = 0.05) fue Temperatura baja y alta precipitación (tbap). En las tres regresiones mostradas, resulta interesante el hecho de que a la variable tmedia17 (temperatura media) se le asigna un coeficiente negativo.'''
 st.markdown(f'<div style="text-align: justify">{D2}</div>',unsafe_allow_html=True)
 
